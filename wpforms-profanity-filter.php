@@ -40,7 +40,7 @@ function wpf_dev_profanity_filter_settings_page()
     </div>
     <?php
 }
-
+//test
 function wpf_dev_profanity_filter_paragraph($field_id, $field_submit, $form_data) {
     $blocked_words = get_option('wpf_dev_blocked_words', '');
     $blocked_words_array = explode(',', $blocked_words);
